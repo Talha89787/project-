@@ -1,0 +1,40 @@
+/* App container */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Video containers */
+  #localVideo,
+  #remoteVideo {
+    width: 320px;
+    height: 240px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  #startButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  #stopButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
